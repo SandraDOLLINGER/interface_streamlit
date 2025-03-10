@@ -1,1 +1,1 @@
-web: streamlit run streamlit_scoring.py
+web: streamlit run streamlit_scoring.py --server.port=$PORT --server.address=0.0.0.0
